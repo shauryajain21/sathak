@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c2f0f6 !important;
+}
+.event_image{
+    z-index: -1;
+    margin: auto;
+    height: 20vw;
+    width: 80%;
+    filter: blur(4px);
+    border: 1px solid black;
+}
+.event_image img{
+    height: 20vw;
+    width: 100%;
+}
+.front_image{
+    position: relative;
+    left:20%;
+    height: 20vw;
+    width: 60%;
+    margin-top: -20vw;
+}
+.front_image img{
+    height: 20vw;
+    width: 100%;
+}
+.logo{
+    z-index: 9;
+    position:absolute;
+}
+.startup_logo{
+    height: 15vw !important;
+    width: 15vw;
+    margin-left: 15vw;
+    margin-top: -10vw;
+    border-radius: 10%;
+}
+.startup_name{
+    margin-left: 32vw;
+    color: #3b899a;
+    font-weight: bold;
+    font-style: italic;
+}
+.website_button{
+    background-color: #3b899a;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: white;
+    box-shadow: 1px 2px white;
+    margin-left: 80vw;
+    font-size: 1.2rem;
+    margin-top:-50vw;
+}
+.startup_detail{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    text-align: justify;
+    font-size: 1rem;
+    font-style: italic;
+}
+.apply_button{
+    background-color: #3b899a;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: white;
+    box-shadow: 1px 2px white;
+    margin-left: 45vw;
+    font-size: 1.5rem;
+    margin-top: 2vw ;
+    margin-bottom: 1vw;
+}
+.apply_button a{
+    text-decoration: none;
+    color: white;
+}
+.apply_button a:hover{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:768px){
+    .event_image{
+        opacity: 0;
+    }
+    .front_image{
+        opacity: 0;
+    }
+    .startup_logo{
+        height: 20vw;
+        width: 20vw;
+        margin-left: 40vw;
+        margin-top: 0.5vw;
+        border-radius: 10%;
+    }
+    .startup_name{
+        margin-top: 25vw;
+    }
+    .website_button{
+        margin-left: 70vw;
+    }
+}
+@media screen and (max-width:2560px){
+    .nav-links{
+        margin-left: 60vw !important;
+    }
+}

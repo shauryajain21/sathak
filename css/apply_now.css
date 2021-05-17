@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c2f0f6 !important;
+}
+form{
+    margin-top: 50px;
+}
+table{
+    table-layout: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+td{
+    padding: 5px;
+}
+.label{
+    width: 400px;
+}
+label{ 
+    font-size: large;
+    color: #555;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Garamond;
+}
+.feild input{
+    width: 500px;
+}
+textarea{
+    width: 500px;
+}
+.submit_button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #3b899a;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 150px;
+}
