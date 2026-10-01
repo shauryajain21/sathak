@@ -1,0 +1,27 @@
+# Secrets
+.env*
+!.env.example
+secrets.h
+credentials.*
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.conf.wg
+service-account*.json
+
+# Per-computer Claude settings
+.claude/settings.local.json
+
+# Build output and dependencies
+node_modules/
+.next/
+dist/
+build/
+__pycache__/
+.venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
